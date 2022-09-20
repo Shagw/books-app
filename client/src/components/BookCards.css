@@ -1,0 +1,59 @@
+/*****************Product Image***************/
+  
+  .bookItem {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    align-items: flex-start;
+  }
+  .bookItems li {
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 15rem;
+    margin: 5px;
+    height: 25rem;
+  }
+  .bookItem-name {
+    max-width: 160px;   
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .bookItem-brand {
+    font-size: 0.8rem;
+    color: darkorange;
+  }
+  .bookItem-price {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    color: red;
+  }
+  .bookItem-image {
+    border-radius: 10px !important;
+    box-shadow: 4px -4px whitesmoke;
+    margin-bottom: 10px;
+    max-width: 10rem;
+    max-height: 15rem;
+  }
+  .bookItem-rating {
+    font-size: 0.7rem;
+  }
+  
+  .bookItem-price-discount {
+    padding-top: 3px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: black;
+  }
+  
+  .bookItem-totalprice {
+    font-size: 0.65rem;
+    padding-top: 7px;
+    color: darksalmon;
+    text-decoration: line-through;
+  }
+  
+  .bookItem-image:hover {
+    transform: scale(1.05);
+  }
+  
